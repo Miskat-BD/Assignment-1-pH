@@ -155,3 +155,15 @@ nav button{
     line-height: 20px;
     color: #627382;
 }
+#brain-section{
+    margin: 120px;
+    border: 2px solid red;
+}
+.brain-img img{
+    max-width: 600px;
+}
+.brain-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
