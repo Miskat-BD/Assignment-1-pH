@@ -1,7 +1,10 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 1600px;
 }
 nav{
     display: flex;
@@ -39,6 +42,7 @@ nav button{
   background: url("./assets/hero-bg.png");
   background-repeat: no-repeat;
   color: white;
+  width: 100%;
 }
 #banner .banner-container{
     max-width: 1360px;
@@ -76,6 +80,7 @@ nav button{
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .banner-bottom{
   display: inline-flex;
@@ -94,4 +99,59 @@ nav button{
 .point{
     background-color: #30B868;
     border-radius: 50%;
+}
+#notes-section{
+    padding-top: 30px ;
+}
+
+#notes-section .notes-heading{
+    max-width: 1360;
+    margin: 0 auto;
+    text-align: center;
+}
+#notes-section .notes-heading h1{
+    color: #001931;
+    font-size: 48px;
+    margin-top: 10px;
+}
+.notes-heading {
+    color: #627382;
+    
+}
+.notes-heading p{
+    margin-bottom: 54px;
+}
+.card{
+    display: flex;
+    gap: 24px;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card img{
+  background-color: #F95555;
+  padding: 14px;
+  border-radius: 50%;
+  border: none;
+}
+.card .notes-button{
+    border: none;
+    background-color: white;
+    padding: 50px 130px 30px 130px;
+}
+.cards{
+    
+    border-radius: 10px;
+    max-width: 325px;
+    box-shadow:1px 5px 5px rgba(0, 0, 0, 0.116);
+}
+.cards-info{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.cards-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
