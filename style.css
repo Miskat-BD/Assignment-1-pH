@@ -13,10 +13,14 @@ nav{
     height: 92px;
     
 }
+button:hover{
+    color: orangered;
+    border: 1px solid red;
+}
 .button{
     background-color: #30B868;
     width: 164px;
-    border: 1px solid #30B868 ;
+    border: 1px solid #469165 ;
     border-radius:5px;
     color: #FFFFFF;
 }
@@ -157,7 +161,7 @@ nav button{
 }
 #brain-section{
     margin: 120px;
-    border: 2px solid red;
+    
 }
 .brain-img img{
     max-width: 600px;
@@ -166,4 +170,105 @@ nav button{
     display: flex;
     gap: 60px;
     align-items: center;
+}
+.solution-heading{
+    color: #469165;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.solution h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.solution p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.solution-list li{
+    color: #001931;
+    margin-bottom: 16px;
+    line-height: 20px;
+    list-style: none;
+}
+#early-section{
+    margin-top: 0px;
+}
+.early-container{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    
+    max-width: 1360px;
+    background-color: #ecfdf3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.early-container h1{
+    color: #001931;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.early-container .p1{
+    color: #627382;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    
+}
+.early-button{
+    width: 194px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.early-container .p2{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+ 
+}
+footer{
+    max-width: 1600px;
+    background-color: #001931;
+    margin-top: 120px;
+    padding: 120px 120px 80px 120px;
+}
+.footer-container{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.footer-ul{
+    display: flex;
+    gap:16px;
+}
+.footer-ul .footer-li{
+    list-style: none;
+}
+.footer-social p{
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+footer p small{
+    line-height: 20px;
+    color: #FAFAFA;
+    text-align: center;
+}
+.small p{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-ul .footer-li:hover{
+    cursor: pointer;
+    
 }
